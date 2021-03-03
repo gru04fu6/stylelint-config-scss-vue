@@ -6,7 +6,7 @@ module.exports = {
     ],
     plugins: ['stylelint-scss'],
     rules: {
-        'color-hex-case': 'lower',
+        'color-hex-case': 'upper',
         'at-rule-no-unknown': null,
         'scss/at-rule-no-unknown': true,
         'font-family-no-missing-generic-family-keyword': null,
