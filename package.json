@@ -1,0 +1,27 @@
+{
+    "name": "stylelint-config-scss-vue",
+    "version": "0.0.1",
+    "description": "stylelint設定",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "files": [
+      "index.js"
+    ],
+    "author": "mike",
+    "license": "MIT",
+    "dependencies": {
+        "stylelint-config-prettier": "^8.0.2",
+        "stylelint-config-recess-order": "^2.3.0",
+        "stylelint-config-standard": "^20.0.0",
+        "stylelint-scss": "^3.19.0",
+        "stylelint": "^13.11.0"
+    },
+    "peerDependencies": {
+        "stylelint": ">=10.1.0"
+    },
+    "devDependencies": {
+      "eslint": "^6.7.2"
+    }
+  }
